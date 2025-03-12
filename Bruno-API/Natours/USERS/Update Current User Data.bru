@@ -1,0 +1,21 @@
+meta {
+  name: Update Current User Data
+  type: http
+  seq: 6
+}
+
+patch {
+  url: {{base_url}}/users/updateMe
+  body: multipartForm
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{jwt}}
+}
+
+body:multipart-form {
+  name: Samuel Lopez
+  ~photo: @file(/home/samu/Documentos/PROGRAMACION/CURSOS/NODE/4-natours/dev-data/img/leo.jpg)
+  ~email: 
+}

@@ -1,0 +1,27 @@
+meta {
+  name: Delete Tour
+  type: http
+  seq: 10
+}
+
+delete {
+  url: {{base_url}}/tours/66dc6de33c519ca9f50c9684
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{jwt}}
+}
+
+body:json {
+  {
+      "duration" : 15
+  }
+}
+
+tests {
+  test("Status code is 200", function () {
+      expect(res.getStatus()).to.equal(200);
+  });
+}

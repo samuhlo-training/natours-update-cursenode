@@ -1,0 +1,23 @@
+meta {
+  name: Update Tour
+  type: http
+  seq: 9
+}
+
+patch {
+  url: {{base_url}}/tours/5c88fa8cf4afda39709c2955
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "guides": ["66d9f202212eaa20b0a19238","66daba4b6ffb13dc4f27fe73","66d9c288640ea9a8c2f6f6ac", "66dc6e6d3c519ca9f50c968d"]
+  }
+}
+
+tests {
+  test("Status code is 200", function () {
+      expect(res.getStatus()).to.equal(200);
+  });
+}

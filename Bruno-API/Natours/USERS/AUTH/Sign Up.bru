@@ -1,0 +1,25 @@
+meta {
+  name: Sign Up
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{base_url}}/users/signup
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "admin",
+      "email": "admin@samuel.com",
+      "password": "password123",
+      "passwordConfirm": "password123",
+      "role": "admin"
+      }
+}
+
+tests {
+  bru.setEnvVar("jwt",res.getBody().token);
+}

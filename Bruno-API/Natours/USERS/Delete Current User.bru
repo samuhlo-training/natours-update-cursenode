@@ -1,0 +1,15 @@
+meta {
+  name: Delete Current User
+  type: http
+  seq: 8
+}
+
+delete {
+  url: {{base_url}}/users/deleteMe
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: {{jwt}}
+}
