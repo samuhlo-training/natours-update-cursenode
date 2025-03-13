@@ -3,4 +3,5 @@ node_modules/
 .vercel
 .cache/
 Bruno-Api/
-config.env
+.config.env
+.cache_ggshield
