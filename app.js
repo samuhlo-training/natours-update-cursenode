@@ -61,9 +61,14 @@ app.use(
       connectSrc: [
         "'self'",
         'blob:',
-        'https://*.mapbox.com',
+        'https://*.tiles.mapbox.com', // Añade esto si usas Mapbox Tiles
+        'https://api.mapbox.com', // Añade esto si usas Mapbox API
+        'https://events.mapbox.com', // Añade esto si usas eventos de Mapbox
         'http://127.0.0.1:3000',
-        'http://localhost:3000', // Permite conexiones al backend local
+        'http://localhost:3000',
+        'https://cdnjs.cloudflare.com',
+        'https://*.cloudflare.com',
+        'ws://localhost:3000', // Solo si usas WebSockets
       ],
       upgradeInsecureRequests: [],
     },
