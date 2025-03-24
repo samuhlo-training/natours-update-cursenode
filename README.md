@@ -41,8 +41,9 @@ Basado en las mejores prácticas de desarrollo backend con Node.js, Express, y M
 ![Pug](https://img.shields.io/badge/Pug-FFF?style=for-the-badge&logo=pug&logoColor=A86454)
 
 </div>
-
-<img src="portada.webp"></img>
+<div aling='center'>
+<img src="portada.webp"/>
+</div>
 
 ## Stack
 
@@ -56,9 +57,8 @@ Basado en las mejores prácticas de desarrollo backend con Node.js, Express, y M
 
 ## Usuario
 
-[!NOTE]
-
-1. Utiliza este usuario para probar :
-
-<p>   <em>email</em> : admin@natours.io</p>
-<p>   <em>password</em> : test1234</p>
+> Utiliza este usuario para probar
+>
+> <em>email</em> : admin@natours.io
+>
+> <em>password</em> : test1234
