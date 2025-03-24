@@ -41,7 +41,7 @@ Basado en las mejores prácticas de desarrollo backend con Node.js, Express, y M
 ![Pug](https://img.shields.io/badge/Pug-FFF?style=for-the-badge&logo=pug&logoColor=A86454)
 
 </div>
-<div aling='center'>
+<div align='center'>
 <img src="portada.webp"/>
 </div>
 
