@@ -5,3 +5,4 @@ node_modules/
 Bruno-Api/
 .config.env
 .cache_ggshield
+.agents
