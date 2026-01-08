@@ -11,7 +11,6 @@
   <img src="https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/EXPRESS-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB" />
-  <img src="https://img.shields.io/badge/STATUS-PRODUCTION-000000?style=for-the-badge" alt="Status" />
 
   <br />
   <br />
@@ -19,7 +18,7 @@
 
 ---
 
-### 00. PREVIEW
+### 00 __ PREVIEW
 
 ![Natours Preview](portada.webp)
 
@@ -36,7 +35,7 @@
 
 ---
 
-### 01. ARCHITECTURE & DECISIONS
+### 01 __ ARCHITECTURE & DECISIONS
 
 | COMPONENT | TECH | NOTE |
 | :--- | :--- | :--- |
@@ -53,7 +52,7 @@
 
 <br>
 
-### 02. INSTALLATION
+### 02 __ INSTALLATION
 
 *Run local environment:*
 
@@ -87,7 +86,7 @@ npm start
 
 ---
 
-### 03. KEY FEATURES / SNIPPETS
+### 03 __ KEY FEATURES / SNIPPETS
 
 #### A. FACTORY PATTERN FOR CRUD OPERATIONS
 Handler genérico que elimina repetición en controladores.
@@ -149,7 +148,7 @@ class APIFeatures {
 
 ---
 
-### 04. PROJECT STRUCTURE
+### 04 __ PROJECT STRUCTURE
 
 ```
 controllers/     # Business logic & request handlers
@@ -163,7 +162,7 @@ dev-data/        # Seed data for development
 
 ---
 
-### 05. DEMO CREDENTIALS
+### 05 __ DEMO CREDENTIALS
 
 > **Email:** `admin@natours.io`  
 > **Password:** `test1234`
@@ -174,7 +173,7 @@ dev-data/        # Seed data for development
 
 <br />
 
-<code>DESIGNED & CODED BY @samuhlo</code>
+<code>DESIGNED & CODED BY <a href='https://github.com/samuhlo'>samuhlo</a></code>
 
 <br />
 
